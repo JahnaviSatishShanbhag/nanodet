@@ -93,7 +93,7 @@ device:
   workers_per_gpu: 5
   batchsize_per_gpu: 30
 schedule:
-  resume:
+#   resume:
 #   load_model:
   optimizer:
     name: AdamW
